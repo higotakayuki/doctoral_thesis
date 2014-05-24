@@ -1,0 +1,31 @@
+\newcommand{\ersfigure}[2]{\begin{figure}[t]
+\begin{center}
+\begin{tabular}{p{\hfiglength\linewidth}p{\hfiglength\linewidth}}
+\begin{minipage}{\linewidth}
+\centerline{\includegraphics[width=\linewidth]{./data_ers/#2.eps}}
+\end{minipage}
+&
+\begin{minipage}{\linewidth}
+\centerline{\includegraphics[width=\linewidth]{./data_ers/#2_var.eps}}
+\end{minipage}
+\\
+\spcen
+(a) Entropy
+&
+\spcen
+(b) Standard Deviation
+\\
+\end{tabular}
+\vskip -0.2in
+\caption{#1}
+\label{figers-#2}
+\end{center}
+\end{figure}
+}
+
+\ersfigure{A typical evolution for onemax in using partially uniform distributions.}{t_ers_0d}
+\ersfigure{A typical evolution for 1D Ising in using partially uniform distributions.}{t_ers_1d}
+\ersfigure{A typical evolution for 2D Ising in using partially  distributions.}{t_ers_2d}
+\ersfigure{A typical evolution for onemax in using Boltzmann distributions.}{ers_0d}
+\ersfigure{A typical evolution for 1D Ising in using Boltzmann distributions.}{ers_1d}
+\ersfigure{A typical evolution for 2D Ising in using Boltzmann distributions.}{ers_2d}

@@ -1,0 +1,238 @@
+This chapter introduces
+the essential knowledges for understanding EAPM.
+
+\section{Computational Optimization}
+The objective of the optimization problem is 
+to find the solution $x$ which minimizes or
+maximizes the cost function $f(x)$
+(also called the objective function)
+under the constraint 
+$x \in \mathrm{S}$.
+In this thesis, $x$ is supposed to be 
+a continuous or discrete vector.
+This thesis considers only minimization problems without loss of
+generality
+and does not consider the difficulty of the constraints.
+
+As we know, in some simple problems,
+the optimum solution can  
+be easily found by hand calculation.  
+For example, it is clearly easy to minimize $f(x)=a x^2 + bx +c$, where
+$a,b,c,x \in \mathrm{R}$ and $0<a$.
+This easiness comes from some basic properties of the cost function,
+for example,
+convexity, continuity, and differentiability.
+
+In other cases, for example, 
+where the derivative cannot be obtained or convexity is not guaranteed, 
+optimization becomes difficult.
+For these types of optimization problems,
+computational methods are effective.
+The simplest method is the hill-climbing method (also called the local search), 
+where a sequence of solutions, $x_1, x_2,\cdots , x_n$,
+is generated such that $f(x_1)>f(x_2) > \cdots > f(x_n)$.
+In the algorithm, first, the initial solution $x_1$ is generated
+randomly and is updated iteratively.
+In update steps, small difference $\Delta x$ is somehow generated,
+for example, by using gradient,
+and if $f(x_t+\Delta x)<f(x_t)$ then the current solution is basically
+updated as $x_{t+1}=x_t+\Delta x$.
+
+In hill-climbing methods, the presence of local optima is the serious
+problem.
+The local optima is defined as follows:
+\begin{equation}
+ \{x^*| f(x^*)<f(x), \; \forall x \,\, s.t. \,\, |x^* -x|<|\epsilon| \: \},
+\end{equation}  
+where $|\epsilon|$ is a small value.
+Clearly, hill-climbing methods can find a local optimum,
+but there is no guarantee that the obtained solution is the global
+optimum.
+
+
+\section{Monte Carlo Integration (MCI)}
+\subsection{Basics of MCI}
+For an arbitrary function $g(x)$ and 
+an arbitrary probability distribution $q(x)$,
+MCI can approximately calculate 
+\begin{equation}
+ I=\int q(x) g(x) \, dx
+\label{eq-integral}
+\end{equation}
+as follows:
+\begin{eqnarray}
+ \hat I &=& \frac{1}{M} \sum_{q(x)} g(x_i),
+\end{eqnarray}
+where $\sum_{q(x)}$ denotes summation over the samples generated from
+$q(x)$, and $M$ is the number of the samples.
+Especially, if $M \to \infty$ then 
+$\hat I \to I$.
+This is well known fact as the law of large numbers.
+
+The speed to approach to the true value is
+important.
+This can be asymptotically discussed by the central limit theorem
+\cite{liu:mci},
+which says that
+\begin{equation}
+\lim_{M \to \infty} \sqrt{M}(\hat I - I) \to {\bf N}(0,\sigma^2),
+~\mathrm{in ~ distribution},
+\end{equation}
+where ${\bf N}(u,\sigma^2)$ is a Gaussian distribution with
+the mean $u$ and the variance $\sigma^2$;
+$\sigma^2=\mathrm{Var}[g(x)]_{q(x)}$ and
+$\mathrm{Var}[\cdot]_{q(x)}$ denotes the variance of the random variable 
+with respect to $q(x)$.
+In other words, the average squared error $E[(\hat I -I)^2]$ with $M$
+number of samples is given by
+\begin{equation}
+ E[(\hat I -I)^2]=\frac{\sigma^2}{M},
+ \label{eq_mci_error}
+\end{equation}
+where $\mathrm{E}[\cdot]$ denotes the expectation.
+
+
+
+\subsection{Importance Sampling}
+%add intro of IS
+In general, it can be difficult to
+directly generate samples from the probability distribution of interest
+and instead we have samples from another probability distribution.
+In this case, importance sampling is useful.
+In importance sampling,
+$I$ of (\ref{eq-integral}) is redefined as follows:
+\begin{equation}
+ I=\int p(x) \frac{q(x)}{p(x)}g(x) \, dx,
+\end{equation}
+where $p(x)$ is the sampler distribution.
+MCI is carried out as
+\begin{equation}
+ \hat I_{\mathrm{IS}} = \frac{1}{M} \sum_{p(x)} \frac{q(x)}{p(x)} g(x_i).
+\end{equation}
+Another application of importance sampling is shown as follows:
+\begin{eqnarray}
+ \int g(x) \, dx &=&\int p(x) \frac{g(x)}{p(x)} \, dx \\
+                   &\simeq&\frac{1}{M} \sum_{p(x)} \frac{g(x_i)}{p(x)}.
+\end{eqnarray}
+Also in these cases,
+the error can be assessed by the same way as (\ref{eq_mci_error})
+with $\sigma^2=\mathrm{Var}[\frac{q(x)}{p(x)}f(x)]_{p(x)}$.
+The point is that the sampler distribution $p(x)$ has an effect on
+the error.
+In other words, the error can be controlled by changing $p(x)$.
+
+
+In practice, normalized importance sampling is useful.
+Normalized importance sampling estimator is given by
+\begin{eqnarray}
+ \hat I_{\mathrm{NIS}} &=& \frac{1}{\sum_{p(x)} \frac{q(x)}{p(x)}} \sum_{p(x)}
+  \frac{q(x)}{p(x)} g(x_i)\\
+&=& \frac{1}{\sum_{p(x)} \frac{\tilde q(x)}{\tilde p(x)}} \sum_{p(x)}
+ \frac{\tilde q(x)}{\tilde p(x)} g(x_i),
+\end{eqnarray}
+where $\tilde p(x)$ and $\tilde q(x)$ are proportional to $p(x)$ and
+$q(x)$, respectively.  
+The advantage of this method is
+that we can replace $p(x)$ and $q(x)$ with
+their proportional value $\tilde p(x)$ and $\tilde q(x)$, respectively.
+The validity of this calculation is 
+confirmed by the following equations:
+\begin{eqnarray}
+1  &=&\int \frac{q(x)}{p(x)}p(x) \, dx\\
+ &\simeq& \frac{1}{M} \sum_{p(x)} \frac{q(x)}{p(x)}\\
+ &=& \frac{1}{M} \frac{Z_p}{Z_q} \sum_{p(x)} \frac{\tilde q(x)}{\tilde
+  p(x)},\\
+\frac{1}{\sum_{p(x)} \frac{\tilde q(x)}{\tilde p(x)}}
+&\simeq&
+\frac{1}{M} \frac{Z_p}{Z_q},
+\end{eqnarray}
+where $Z_p=\int \tilde p(x) \, dx$ and $Z_q=\int \tilde q(x) \, dx$ are the normalizing constants of
+$\tilde p(x)$ and $ \tilde q(x)$, respectively.
+Note that importance sampling estimator is unbiased,
+but normalizing importance sampling estimator is biased.
+This can be described as
+\begin{equation}
+ E[\hat I_{\mathrm{IS}}]=I
+\end{equation}
+and
+\begin{equation}
+ E[\hat I_{\mathrm{NIS}}] \neq I.
+\end{equation}
+
+\section{Statistical Estimation}
+Statistical estimation is a task to 
+estimate the probability distribution which underlies the given data.
+For example, 
+observing the data $D=\{x_i\}$ which are generated according to 
+a probability distribution $q(x)$,  
+we make a probability distribution $p(x)$ which predicts $q(x)$.
+In this thesis, $q(x)$ represents the distribution of interest
+and is called the target distribution.
+On the other hand, $p(x)$ represents a probability model
+which is controlled to approximate the target distribution.
+
+
+\subsection{Kullback-Leibler Divergence}
+The most popular statistical estimation framework
+is one based on the Kullback-Leibler (KL) 
+divergence, which is defined by
+\begin{eqnarray}
+ D_{\mathrm{KL}}(q \parallel p) 
+&=& \int q(x) \log \frac{q(x)}{p(x)} \\
+&=& \int q(x) \log q(x) \, dx - \int q(x) \log p(x) \, dx.
+\end{eqnarray}
+KL divergence is a measure of the distance between 
+two probability distribution but not symmetric.
+It can be easily confirmed that if the two distributions are the same
+KL divergence becomes zero.
+In this framework, 
+the objective of statistical estimation is
+to select $p(x)$ which minimizes KL divergence by using the given samples.
+Since $q(x)$ is unknown or $\int q(x) \log p(x) \, dx$ is difficult to
+calculate in practice, 
+it is impossible to directly minimize KL divergence.
+Hence, some approximation methods are proposed,
+and the next section introduce one.
+
+\subsection{Maximum Likelihood Estimation}
+Maximum likelihood (ML) method \nocite{hastie:slearning} is 
+one of the practical methods for statistical estimation.
+In ML estimation, we find $p(x)$ which maximizes the empirical log-likelihood
+defined by
+\begin{equation}
+ L(p(x))=\sum_{q(x)} \log p(x).
+\label{def-emp-log}
+\end{equation}
+In this thesis, the empirical log-likelihood is redefined by
+\begin{equation}
+  \int q(x) \log p(x) \, dx \simeq \frac{1}{M} \sum_{q(x)} \log p(x),
+\label{def-emp-log-mc}
+\end{equation}
+where $M$ is the number of the given samples.
+(\ref{def-emp-log}) and (\ref{def-emp-log-mc}) are equivalent in finding $p(x)$ which maximizes them.
+It is clear that maximizing the empirical log-likelihood 
+approximately minimizes the KL divergence.
+In practice, we use a parametrized probability distribution $p(x|w)$ for
+the probability model $p(x)$. Hence,
+in ML estimation, we find the parameter $w$ which minimizes the empirical log-likelihood. 
+
+If the given data are generated from a different distribution $r(x)$ instead
+of $q(x)$,
+the empirical likelihood can be calculated through importance sampling
+as follows:
+\begin{equation}
+  \int r(x) \frac{q(x)}{r(x)} \log p(x) \, dx \simeq 
+\frac{1}{M} \sum_{r(x)} \frac{q(x)}{r(x)} \log p(x).
+\end{equation}
+This type of problems is referred to as covariate shift \cite{shimodaira:wis-aic}.
+
+\subsection{Related Topics}
+Another example of KL divergence based statistical method is Bayes estimation.
+Readers who looks for better estimation methods like Bayes estimation,
+\cite{bishop:ml} becomes a good guide.
+Someone interested in minimizing $D_{\mathrm{KL}}(p,q)$ ($q$ and $p$
+are exchanged)
+instead of $D_{\mathrm{KL}}(q,p)$,
+can find an approximation framework named {\it mean field
+approach} in \cite{opper:mf}. 
+Actually, EAPM has a relationship to mean field approach.

@@ -1,0 +1,200 @@
+\section{Summary of This Thesis}
+This thesis has theoretically approached
+to establish fundamental technique of EAPM.
+This thesis has focused on the importance sampling manner, 
+which calculates the empirical log-likelihoods
+with respect to the target distribution for statistical estimation,
+in EAPM and
+has improved the importance sampling estimator
+in the three manners. 
+In the following, 
+each section summarizes each improvement.
+
+
+\subsection{RPM for Model Error} 
+The EAPM generates many samples and 
+they are used once.
+Since Monte Carlo estimator becomes improved  
+as the number of the samples increases,
+it is important to reuse the historical samples.
+In evolutionary algorithms, 
+a method to reuse the historical samples is 
+called a population mechanism, 
+and, 
+this is a fundamental problem not only in EAPM 
+but also in evolutionary algorithms (EAs).
+This thesis has provided a theoretical method,
+resampling population model (RPM), for
+this purpose.
+
+In employing the historical samples,
+the bias of the reused samples is the problem.
+In the EAPM, the bias is removed by using importance sampling,
+which requires the probability distribution of the samples. 
+However, 
+the probability distribution of the selected historical samples
+is unknown.
+
+RPM 
+consists of the weighting and resampling procedures.
+The weighting is a kind of importance sampling calculation 
+and provides a manner to mix the current samples and
+a part of the historical samples.
+On the other hand,
+the resampling can change the size of 
+the maintained historical samples 
+without changing the distribution of them.
+RPM is an extension of the EAPM (CE).
+
+Through experiments,
+it is confirmed that 
+PRM outperforms conventional methods 
+to maintain the historical samples such as 
+the full replacement, the elitist replacement, and the restricted
+tournament replacement.
+Additionally, through experiments using Rosenbrock function,
+it has revealed that 
+especially RPM has the robustness against the model error.
+
+
+\subsection{HIS for Local Optima}
+The difference between the target distribution and
+the estimated distribution is important
+because the large difference means that 
+the next generated samples will be strongly biased and 
+the next estimated distribution is also different from 
+the next target distribution.
+This phenomenon can be understood as dropping into local optima.
+In the general annealing process of the EAPM,
+to correct the difference is quite difficult
+and the only method is to restart after convergence,
+that is, the multi-starting.
+To overcome the problem of the local optima,
+this thesis has proposed another convergence method, 
+hierarchical importance sampling,
+instead of annealing.
+
+It can be intuitively understood that
+high entropy samples are effective for escaping from local optima.
+Hence, this thesis has proposed
+hierarchical importance samling (HIS) 
+that generates samples with different entropies simultaneously and
+calculates the empirical log-likelihood from the mixed samples.
+The difficulty is to calculate the empirical log-likelihood 
+from mixed samples.
+This can be calculated via importance sampling with a mixture 
+distribution.
+This is derived simply according to the definition of
+importance sampling and this implies 
+there there can be no risk at this point.
+HIS is a mathematical extension of the EAPM (CE).
+
+Through experiments, it is confirmed that 
+the proposed method outperforms EDA and surely the EAPM (CE).
+The point is iteratively estimating the probability distribution
+towards the same target distribution with mixing high entropy samples.
+This method is understood as repeating the EAPM ,that is, 
+multi-starting,  with using the information of the previous trials.
+Additionally, through experiments using Rastrigin function,
+it has revealed that 
+especially HIS has the robustness against the local optima.
+
+
+\subsection{ERS and Linear Time Convergence}
+To determine and control the annealing speed 
+is a basic problem of the EAPM.
+In fact, it has not been well known what the factor is. 
+This thesis has revealed the fundamental relationship between
+the entropy of the target distribution and the Fisher information,
+and, consequently, 
+has proposed a general annealing schedule, entropy reduction schedule (ERS).
+
+Basically, the entropy of the target distribution
+represents the size of the region where samples are generated.
+In other words, the entropy represents the size of the search space.
+In terms of the statistical estimation,
+the approximately optimal convergence speed is 
+realized by lineally reducing the entropy, 
+and this is called ERS.
+If linearly reduction of the entropy is realized,
+the algorithm converges in linear time for the number of the dimensions.
+However, in practice, the numerical calculation of the entropy is 
+not easy. This thesis has proposed numerical calculation methods for
+this purpose.
+
+Through comparison with a conventional method, standard deviation schedule,
+the effectiveness of the proposed convergence schedule is confirmed.
+ERS will converge in linear time in theory,
+but, in practice, the entropy cannot be controlled exactly.
+However, experiments show that
+the convergence time can be approximately estimated as linear.
+
+
+\section{Future Directions}
+\subsection{HIS with RPM}
+The advantages of RPM and HIS are different from each other.
+Hence, it is expected that
+a new method is obtained by combining RPM and HIS.
+Actually, we can simply combine HIS with RPM.
+However, there exists some problems.
+One is which samples should be emplyed for determining the target
+distribtuions.
+Another is whether the simple probability model is appropriate.
+In RPM, we have a part of the histrical samples and they do not depend on
+the probability model.
+Hence, the distribution of the maintained historical samples 
+may be too complex.
+In RPM, the size of the maintained historical samples is
+naturally decreased,
+whereas not in HIS.
+
+
+\subsection{Constraints}
+In this thesis,
+constraints are basically out of scope.
+However, 
+some problems such as traveling salesman problems (TSP)
+
+have constraints.
+Unfortunatel,
+the EAPM and our extensions cannot 
+be directly applied to TSP and also other constrained problems.
+Some works \cite{rubinstein:ce,tsutsui:tsp} are proposed but
+we have not obtained sufficiently theoretical method yet.
+To deal with constraints is one of the most important current problems
+of EAPM.
+
+
+
+\subsection{Statistical Estimation}
+This thesis focuses not on the statistical estimation
+but on the Monte Carlo framework, that is, importance sampling.
+However, the quality of the samples strongly depends on
+the accuracy of the statistical estimation.
+Some methods for EAPM are proposed \cite{larranaga:eda}.
+However, there can remain problems such as
+the control of the model complexity, that is, model selection, and
+learning mixture distribution with effective computational method.
+
+
+
+\subsection{Evolution into Reinforcement Learning}
+\cite{rubinstein:ce} has pointed that
+the EAPM and
+the reinforcement learning,
+which solves Bellman Equation with a sampling method,
+share the same concept,
+that is, importance sampling and the annealing.
+Hence, the reinforcement learning may be
+extended by the similar manner as our proposed extensions.
+
+
+\subsection{Killer Applications}
+The EAPM has been practically and theoretically developed so far.
+However, there remains the most important question:
+``
+Are EAPM really better than other methods?
+''
+Trying to answer this question, we can understand 
+advantages and disadvantages of the EAPM,
+and subsequently we can realize further improvements.

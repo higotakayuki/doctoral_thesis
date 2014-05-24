@@ -1,0 +1,321 @@
+\begin{thebibliography}{10}
+
+\bibitem{baluja:pbil}
+Shumeet Baluja.
+\newblock Population-based incremental learning: {A} method for integrating
+  genetic search based function optimization and competitive learning,.
+\newblock Technical Report CMU-CS-94-163, Carnegie Mellon University,
+  Pittsburgh, PA, 1994.
+
+\bibitem{bishop:ml}
+Christopher~M. Bishop.
+\newblock {\em Pattern Recognition and Machine Learning}.
+\newblock Springer, 2006.
+
+\bibitem{blickle:96comparison}
+Tobias Blickle and Lothar Thiele.
+\newblock A comparison of selection schemes used in evolutionary algorithms.
+\newblock {\em Evolutionary Computation}, Vol.~4, No.~4, pp. 361--394, 1996.
+
+\bibitem{bosman:idea}
+Peter~A.N. Bosman and Dirk Thierens.
+\newblock Continuous iterated density estimation evolutionary algorithms within
+  the {IDEA} framework.
+\newblock In {\em Proceedings of the Optimization by Building and Using
+  Probabilistic Models OBUPM Workshop at {GECCO}2000}, pp. 197--200, 2000.
+
+\bibitem{bosman:idea2}
+Peter~A.N. Bosman and Dirk Thierens.
+\newblock Expanding from discrete to continuous estimation of distribution
+  algorithms: The idea.
+\newblock In {\em Parallel Problem Solving From Nature - PPSN VI,}, pp.
+  767--776. Springer-Verlag, 2000.
+
+\bibitem{denny:is}
+Mark Denny.
+\newblock Introduction to importance sampling in rare-event simulations.
+\newblock {\em European Journal of Physics}, Vol.~22, pp. 403--411, 2001.
+
+\bibitem{doucet:particle}
+Arnaud Doucet, Nando de~Freitas, and Neil Gordon, editors.
+\newblock {\em Sequential Monte Carlo Methods in Practice}.
+\newblock Springer-Verlag, New York, 2001.
+
+\bibitem{efraimidis:rwor}
+Pavlos~S. Efraimidis and Paul~G. Spirakis.
+\newblock Weighted random sampling with a reservoir.
+\newblock {\em Information Processing Letters}, Vol.~97, No.~5, pp. 181--185,
+  2006.
+
+\bibitem{goldberg:ga}
+David~E. Goldberg.
+\newblock {\em Genetic Algorithms in Search, Optimization and Machine
+  Learning}.
+\newblock Addison-Wesley Publishing Company, 1989.
+
+\bibitem{hansen:cma}
+Nikolaus Hansen and Andreas Ostermeier.
+\newblock Adapting arbitrary normal mutation distributions in evolution
+  strategies: the covariance matrix adaptation.
+\newblock In {\em In Proceedings of the 1996 IEEE International Conference on
+  Evolutionary Computation}, pp. 312--317, 1996.
+
+\bibitem{hastie:slearning}
+Trevor Hastie, Robert Tibshirani, and Jerome Friedman.
+\newblock {\em The Elements of Statistical Learning}.
+\newblock Springer-Verlag, New York, 2001.
+
+\bibitem{hauschild:spinglass}
+Mark Hauschild, Martin Pelikan, Claudio~F. Lima, and Kumara Sastry.
+\newblock Analyzing probabilistic models in hierarchical {BOA} on traps and
+  spin glasses.
+\newblock MEDAL Report No. 2007001, Missouri Estimation of Distribution
+  Algorithms Laboratory, University of Missouri, St. Louis, MO, 2007.
+
+\bibitem{henmi:is}
+Masayuki Henmi, Ryo Yoshida, and Shinto Eguchi.
+\newblock Importance sampling via the estimated sampler.
+\newblock {\em Biometrika}, Vol.~94, No.~4, pp. 985--991, 2007.
+
+\bibitem{higo:rpm}
+Takayuki Higo and Keiki Takadama.
+\newblock Resampling-based population mechanism for evolutionary algorithms
+  based on probability models.
+\newblock In {\em 11th Asia-Pacific Workshop on Intelligent and Evolutionary
+  Systems}, 2007.
+
+\bibitem{higo:his}
+Takayuki Higo and Keiki Takadama.
+\newblock Maintaining multiple populations with different diversities for
+  evolutionary optimization based on probabiity models.
+\newblock {\em {IPSJ} Transactions on Mathematical Modeling and Its
+  Applications}, 2008.
+\newblock to appear.
+
+\bibitem{higuchi:ga-pf}
+Tomoyuki Higuchi.
+\newblock {M}onte {C}arlo filter using the genetic algorithm operators.
+\newblock {\em Journal of Statistical Computation and Simulation}, Vol.~59,
+  No.~1, pp. 1--23, 1997.
+
+\bibitem{hukushima:emc}
+Koji Hukushima and Koji Nemoto.
+\newblock Exchange monte carlo method and application to spin glass
+  simulations.
+\newblock {\em Journal of the Physical Society of Japan}, Vol.~65, No.~6, pp.
+  1604--1608, 1996.
+
+\bibitem{kern:cma}
+Stefan Kern, Sibylle~D. M\"{u}ller, Nikolaus Hansen, Dirk B\"{u}che, Jiri
+  Ocenasek, and Petros Koumoutsakos.
+\newblock Learning probability distributions in continuous evolutionary
+  algorithms - a comparative review.
+\newblock {\em Natural Computing: an international journal}, 2004.
+
+\bibitem{kirkpatrick:sa}
+S.~Kirkpatrick, C.~D. Gelatt, and M.~P. Vecchi.
+\newblock Optimization by simulated annealing.
+\newblock {\em Science}, Vol. 220, pp. 671--680, 1983.
+
+\bibitem{larranaga:eda}
+Pedro Larranaga and Jose~A. Lozano, editors.
+\newblock {\em Estimation of Distribution Algorithm}.
+\newblock Kluwer Academic Publishers, 2002.
+
+\bibitem{lima:replacement}
+Claudio~F. Lima, Martin Pelikan, David~E. Goldberg, Fernando~G. Lobo, Kumara
+  Sastry, and Mark Hauschild.
+\newblock Influence of selection and replacement strategies on linkage learning
+  in {BOA}.
+\newblock Technical report, IlliGAL Technical Report No. 2007013, University of
+  Illinois at Urbana-Champaign, 2007.
+
+\bibitem{liu:mci}
+Jun~S. Liu.
+\newblock {\em Monte Carlo Strategies in Scientific Computing}.
+\newblock Springer, 2001.
+
+\bibitem{lozano:eda}
+Jose~A. Lozano, Pedro Larranaga, Inaki Inza, and Endika Bengoetxea, editors.
+\newblock {\em Towards an New Evolutionary Computation}.
+\newblock Springer, 2006.
+
+\bibitem{lundy:sa}
+M.~Lundy and A.~Mees.
+\newblock Convergence of an annealing algorithm.
+\newblock {\em Mathematical Programming}, Vol.~34, No.~1, pp. 111--124, 1986.
+
+\bibitem{thilo:sds2}
+Thilo Mahnig and Heinz M\"{u}hlenbein.
+\newblock Comparing the adaptive {B}oltzmann selection schedule {SDS} to
+  truncation selection.
+\newblock In {\em Proceedings of the Third Internatinal Symposium on Adaptive
+  Systems}, pp. 121--128, 2001.
+
+\bibitem{thilo:sds}
+Thilo Mahnig and Heinz M\"{u}hlenbein.
+\newblock A new adaptive {B}oltzmann selection schedule {SDS}.
+\newblock In {\em Proceedings of the 2001 Congress on Evolutionary
+  Computation}, 2001.
+
+\bibitem{muhlenbein:umda_c}
+Heinz M\"{u}hlenbein, J.~Bendisch, and H.-M Voigt.
+\newblock From recombination of genes to the estimation of distributions {II}.
+  continuous parameters.
+\newblock In {\em Parallel Problem Solving from Nature I\hspace{-.1em}V}, pp.
+  188--197, 1996.
+
+\bibitem{muhlenbein:eda}
+Heinz M\"{u}hlenbein and Robin Hons.
+\newblock The estimation of distributions and the minimum relative entropy
+  principle.
+\newblock {\em Evolutionary Computation}, Vol.~13, No.~1, pp. 1--27, 2005.
+
+\bibitem{muhlenbein:umda}
+Heinz M\"{u}hlenbein and Gerd Paa\ss.
+\newblock From recombination of genes to the estimation of distributions {I}.
+  binary parameters.
+\newblock In {\em Parallel Problem Solving from Nature I\hspace{-.1em}V}, pp.
+  178--1187, 1996.
+
+\bibitem{opper:mf}
+Manfred Opper and David Saad, editors.
+\newblock {\em Advanced Mean Field Methods: Theory and Practice (Neural
+  Information Processing Systems)}.
+\newblock MIT Press, 2001.
+
+\bibitem{pelikan:mixture}
+Martin Pelikan and David~E. Goldberg.
+\newblock Genetic algorithms, clustering, and the breaking of symmetry.
+\newblock In {\em Parallel Problem Solving from Nature - {PPSN} {VI} 6th
+  International Conference}, pp. 840--846, 2000.
+
+\bibitem{pelikan:pmbga}
+Martin Pelikan and David~E. Goldberg.
+\newblock Research on the {B}ayesian optimization algorithm.
+\newblock In {\em Optimization By Building and Using Probabilistic}, pp.
+  216--219, Las Vegas, Nevada, USA, 8 2000.
+
+\bibitem{pelikan:escaping}
+Martin Pelikan and David~E. Goldberg.
+\newblock Escaping hierarchical traps with competent genetic algorithms.
+\newblock In {\em Proceedings of the Genetic and Evolutionary Computation
+  Conference ({GECCO}-2001)}, pp. 511--518, 7-11 2001.
+
+\bibitem{pelikan:99boa}
+Martin Pelikan, David~E. Goldberg, and Erick Cant{\'{u}}-Paz.
+\newblock {BOA}: The {B}ayesian optimization algorithm.
+\newblock In {\em Proceedings of the Genetic and Evolutionary Computation
+  Conference {GECCO}-99}, Vol.~I, pp. 525--532, 1999.
+
+\bibitem{pelikan:survey}
+Martin Pelikan, David~E. Goldberg, and Fernando~G. Lobo.
+\newblock A survey of optimization by building and using probabilistic models.
+\newblock {\em Computational Optimization and Applications}, Vol.~21, pp.
+  5--20, 2002.
+
+\bibitem{pelikan:robust}
+Martin Pelikan, David~E. Goldberg, Jiri Ocenasek, and Simon Trebst.
+\newblock Robust and scalable black-box optimization, hierarchy, and ising spin
+  glasses.
+\newblock IlliGAL Report No. 2003019, Illinois Genetic Algorithms Laboratory,
+  University of Illinois at Urbana-Champaign, Urbana, IL, 2003.
+
+\bibitem{pelikan:dependency}
+Martin Pelikan, Shigeyoshi Tsutsui, and Rajiv Kalapala.
+\newblock Dependency trees, permutations, and quadratic assignment problem.
+\newblock MEDAL Report No. 2007003, Missouri Estimation of Distribution
+  Algorithms Laboratory, University of Missouri, St. Louis, MO, 2007.
+
+\bibitem{christian:mcsm}
+Christian~P. Robert and George Casella.
+\newblock {\em Monte Carlo Statistical Methods}.
+\newblock Springer, 2004.
+
+\bibitem{rubinstein:mc}
+Reuven~Y. Rubinstein.
+\newblock {\em Simulation and the {M}onte {C}arlo Method}.
+\newblock Wiley-Interscience, 1981.
+
+\bibitem{rubinstein:ce}
+Reuven~Y. Rubinstein and Dirk~P. Kroese.
+\newblock {\em The Cross-Entropy Method}.
+\newblock Springer, 2004.
+
+\bibitem{shang:rosen}
+Yun-Wei Shang and Yu-Huang Qiu.
+\newblock A note on the extended rosenbrock function.
+\newblock {\em Evolutionary Computation}, Vol.~14, No.~1, pp. 119--126, 2006.
+
+\bibitem{shimodaira:wis-aic}
+Hidetoshi Shimodaira.
+\newblock Improving predictive inference under covariate shift by weighting the
+  log-likelihood function.
+\newblock {\em Journal of Statistical Planning and Inference}, Vol.~90, pp.
+  227--244, 2000.
+
+\bibitem{shimodaila:nitching}
+Hisashi Shimodaira.
+\newblock An empirical performance comparison of niching methods for genetic
+  algorithms.
+\newblock {\em {IEICE} transactions on information and systems}, Vol. E85-D,
+  No.~11, pp. 1872--1880, 11 2002.
+
+\bibitem{weise:go}
+{Thomas Weise}.
+\newblock {Global Optimization Algorithms Theory and Application}.
+\newblock \url{http://www.it-weise.de/}.
+
+\bibitem{tsutsui:tsp}
+Shigeyoshi Tsutsui.
+\newblock Node histogram vs. edge histogram: A comparison of probabilistic
+  model-building genetic algorithms in permutation domains.
+\newblock In {\em The 2006 IEEE Congress on Evolutionary Computation
+  (CEC-2006)}, 2006.
+
+\bibitem{fukao:distsystem}
+¿¼Èøµ£.
+\newblock Ê¬»¶¥·¥¹¥Æ¥àÏÀ -Ç®ÎÏ³ØÅª¥·¥¹¥Æ¥àÏÀ-.
+\newblock ¾¼¹¸Æ², 1987.
+
+\bibitem{greiner:statphy}
+Walter Greiner, Ludwig Neise, and Horst St\"{o}cker.
+\newblock Ç®ÎÏ³Ø¡¦Åý·×ÎÏ³Ø.
+\newblock ¥·¥å¥×¥ê¥ó¥¬¡¼¡¦¥Õ¥§¥¢¥é¡¼¥¯Åìµþ, 1999.
+
+\bibitem{higuchi:ga-pf-j}
+Èõ¸ýÃÎÇ·.
+\newblock °äÅÁÅª¥¢¥ë¥´¥ê¥º¥à¤È¥â¥ó¥Æ¥«¥ë¥í¥Õ¥£¥ë¥¿.
+\newblock Åý·×¿ôÍý, Vol.~44, No.~1, 1996.
+
+\bibitem{iba:mcmc}
+°ËÄí¹¬¿Í, ¼ïÂ¼ÀµÈþ, Âç¿¹Íµ¹À, ÏÂ¹çÈ¥, º´Æ£À°¾°, ¹â¶¶ÌÀÉ§.
+\newblock ·×»»Åý·×II ¥Þ¥ë¥³¥ÕÏ¢º¿¥â¥ó¥Æ¥«¥ë¥íË¡¤È¤½¤Î¼þÊÕ.
+\newblock ´äÇÈ½ñÅ¹, 2005.
+
+\bibitem{nagao:optimization}
+Ä¹ÈøÃÒÀ².
+\newblock ºÇÅ¬²½¥¢¥ë¥´¥ê¥º¥à.
+\newblock ¾¼¹¸Æ², 2000.
+
+\bibitem{sfrontier:3}
+²¼Ê¿±Ñ¼÷, °ËÆ£½¨°ì, µ×ÊÝÀîÃ£Ìé, ÃÝÆâ·¼.
+\newblock ¥â¥Ç¥ëÁªÂò --Í½Â¬¡¦¸¡Äê¡¦¿äÄê¤Î¸òº¹ÅÀ.
+\newblock ´äÇÈ½ñÅ¹, 2004.
+
+\bibitem{watanabe:slearning}
+ÅÏî´À¡É×.
+\newblock ¥Ç¡¼¥¿³Ø½¬¥¢¥ë¥´¥ê¥º¥à.
+\newblock ¶¦Î©½ÐÈÇ, 2001.
+
+\bibitem{watanabe:probstat}
+ÅÏî´À¡É×, Â¼ÅÄ¾º.
+\newblock ³ÎÎ¨¤ÈÅý·× -¾ðÊó³Ø¤Ø¤Î²Í¶¶-.
+\newblock ¥³¥í¥Ê¼Ò, 2005.
+
+\bibitem{sfrontier:11}
+Ýê~¶âË§, ÅÄ·ªÀµ¾Ï, ¼êÄÍ½¸, ³òÅç¾Í²ð, ¾åÅÄ½¤¸ù.
+\newblock ·×»»Åý·× --³ÎÎ¨·×»»¤Î¿·¤·¤¤¼êË¡.
+\newblock ´äÇÈ½ñÅ¹, 2003.
+
+\end{thebibliography}

@@ -1,0 +1,89 @@
+\chapter{Comparison between EDA and the EAPM (CE)}
+\label{exp-edace}
+This appendix provides experimental studies on comparisons
+between EDA and the EAPM.
+In this appendix, the EAPM is denoted by CE.
+In spite of the theoretical aspects of CE,
+CE does not work well in practice.
+
+\section{Experimental Setup}
+\subsection{EDA Setting}
+We employ UMDA
+\cite{muhlenbein:umda} as the EDA.
+Thus, the probability model is defined as
+\begin{equation}
+ p(x|w)=\prod_{i=0}^{i=d-1} p(x_i|w_i)
+\end{equation}
+and ML estimation is employed for building the probability models.
+Here, the learning rate $\alpha$ is introduced.
+The parameter $w$ is updated by the following equation:
+\begin{equation}
+ w_{new}=(1-\alpha) w_{old} + \alpha w_{ML},
+\end{equation}
+where $w_{new},w_{old},w_{ML}$ are the new parameter,
+previous parameter, and ML estimator, respectively.
+This mechanism affords stable estimation.
+
+The selection operator employed is the truncation selection operator.
+The truncation selection operator includes the cutoff rate parameter $c$,
+which represents the percentage of samples that are removed.
+For example, if $c=0.3$ and
+the number of generated samples is $100$,
+then the best $70=100 \times (1-0.3)$ samples are selected
+and the rest are discarded.
+All the parameter settings are described as follows:
+\begin{itemize}
+ \item The number of generated samples in one sampling $M$: $100$, $500$,
+$1000$, $3000$, or $6000$.
+ \item Cutoff rate $c$: $0.1$, $0.3$, or $0.5$.
+ \item Learning rate $\alpha$: $0.5$.
+\end{itemize}
+These values are experimentally determined.
+
+
+\subsection{CE Setting}
+CE uses the same probability model and estimation method
+as EDA.
+However, instead of truncation selection,
+CE employs the $(1-\delta)$-quantile method \cite{rubinstein:ce},
+which selects the best $k=M\times\delta$ samples, where $M$ is
+the number of generated samples, and removes the rest.
+Truncation selection and the \mbox{$(1-\delta)$-quantile} method 
+are basically the same:
+the parameter $(1-\delta)$ corresponds to
+the cutoff rate in truncation selection. 
+Thus, $(1-\delta)$ is referred to as the cutoff parameter in this paper.
+All the parameter settings are described as follows:
+\begin{itemize}
+ \item The number of generated samples in one sampling $M$: $100$, $500$,
+$1000$, $3000$, or $6000$.
+ \item Cutoff rate $c=1-\delta$: $0.3$, $0.5$, or $0.7$.
+ \item Learning rate $\alpha$: $0.5$.
+\end{itemize}
+These values are experimentally determined.
+
+\section{Results}
+\input{./data_his/result_disc_ann}
+
+Tables \ref{ann-onemax}, \ref{ann-1d-ising}, and \ref{ann-2d-ising}
+show the results of EDA.
+Tables \ref{ce-onemax}, \ref{ce-1d-ising}, and \ref{ce-2d-ising}
+show the results of CE.
+The values in the first and second columns are
+the number of generated samples per sampling and the cutoff rate value, 
+respectively.
+The third column lists the average cost function value,
+ with the standard deviation
+in parenthesis,  of the best obtained solutions over ten independent runs.
+The forth column lists the number of function evaluations
+until the population converges.
+The convergence criterion is that the number of function evaluations
+is greater than $2.9e6$ or the variance of the cost function values
+of the generated samples is less than $1e-20$.
+
+Clearly, the performance of CE is inferior to that of EDA, 
+despite the fact that
+CE is  basically equivalent to or plausibly better than EDA.
+The results show that the populations of CE do not converge well.
+The performance of CE is dramatically improved in \ref{chapter-rpm}
+by adding a population mechanism.

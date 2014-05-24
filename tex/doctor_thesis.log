@@ -1,0 +1,1046 @@
+This is pTeXk, Version 3.1415926-p3.1.10 (sjis) (Web2C 7.5.7) (format=platex 2008.7.15)  5 NOV 2008 03:50
+ Source specials enabled.
+**doctor_thesis.tex
+(./doctor_thesis.tex
+pLaTeX2e <2006/11/10>+0 (based on LaTeX2e <2005/12/01> patch level 0)
+Babel <v3.8j> and hyphenation patterns for english, usenglishmax, ukenglish, ba
+sque, bulgarian, coptic, welsh, czech, slovak, german, ngerman, danish, esperan
+to, spanish, catalan, galician, estonian, farsi, finnish, french, irish, greek,
+ monogreek, ancientgreek, croatian, hungarian, interlingua, ibycus, bahasa, ice
+landic, italian, latin, mongolian, dutch, norsk, polish, portuguese, pinyin, ro
+manian, russian, slovenian, samin, uppersorbian, serbian, swedish, turkish, ukr
+ainian, dumylang, nohyphenation, loaded.
+(c:/tex/share/texmf/tex/latex/base/book.cls
+Document Class: book 2005/09/16 v1.4f Standard LaTeX document class
+(c:/tex/share/texmf/tex/latex/base/bk12.clo
+File: bk12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count81
+\c@chapter=\count82
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\c@figure=\count88
+\c@table=\count89
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen118
+)
+(c:/tex/share/texmf/tex/latex/dvips/epsf.sty
+(c:/tex/share/texmf/tex/plain/dvips/epsf.tex
+This is `epsf.tex' v2.7.3 <23 July 2005>
+\epsffilein=\read1
+\epsfframemargin=\dimen119
+\epsfframethickness=\dimen120
+\epsfrsize=\dimen121
+\epsftmp=\dimen122
+\epsftsize=\dimen123
+\epsfxsize=\dimen124
+\epsfysize=\dimen125
+\pspoints=\dimen126
+)) (c:/tex/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/tex/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(c:/tex/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/tex/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(c:/tex/share/texmf/tex/latex/config/graphics.cfg)
+Package graphics Info: Driver file: dvips.def on input line 90.
+
+(c:/tex/share/texmf/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen127
+\Gin@req@width=\dimen128
+) (./comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment') (./cite.sty
+LaTeX Info: Redefining \cite on input line 149.
+LaTeX Info: Redefining \nocite on input line 214.
+Package: cite 2003/11/04  v 4.01
+)
+(c:/tex/share/texmf/tex/latex/misc/fancyhdr.sty
+\headwidth=\dimen129
+)
+(c:/tex/share/texmf/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen130
+)
+(c:/tex/share/texmf/tex/latex/misc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2004/03/15  ver 3.1  Verb mode for urls, etc.
+)
+\figskiplength=\skip43
+\tableskiplength=\skip44
+\algoindenthsp=\skip45
+\algoremain=\skip46
+ (./doctor_thesis.aux)
+\openout1 = `doctor_thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 112.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 112.
+ [1
+
+
+]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <24.88> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 117.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 117.
+
+(./abstract.tex [1
+
+
+]) [2] (./acknowledgment.tex) [3
+
+] (./doctor_thesis.toc
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 4.
+
+[4
+
+] [5] [6])
+\tf@toc=\write4
+\openout4 = `doctor_thesis.toc'.
+
+ [7]
+Chapter 1.
+(./introduction.tex
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
+ [1
+
+
+] [2]
+File: data_intro/relation.eps Graphic file (type eps)
+ <data_intro/relation.eps>) [3] [4]
+Chapter 2.
+(./prelim.tex [5
+
+]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 54.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 54.
+ [6] [7]
+Overfull \hbox (13.1472pt too wide) in paragraph at lines 176--179
+[]\OT1/cmr/m/n/12 The most pop-u-lar sta-tis-ti-cal es-ti-ma-tion frame-work is
+ one based on the Kullback-
+ []
+
+[8]
+
+LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
+(Font)              using `JT1/mc/m/n' instead on input line 236.
+
+
+LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
+(Font)              using `JY1/mc/m/n' instead on input line 236.
+
+) [9]
+Chapter 3.
+(./eapm.tex [10
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 54.
+ [11] [12]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 176.
+
+ (c:/tex/share/texmf/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 176.
+
+[13]
+File: data_etc/annealing.eps Graphic file (type eps)
+ <data_etc/annealing.eps> [14]) [15] [16]
+Chapter 4.
+(./rpm.tex [17
+
+] [18] [19]
+Overfull \hbox (0.41272pt too wide) in paragraph at lines 176--183
+[][]\OT1/cmr/m/n/12 To main-tain the pop-u-la-tion to fol-low the tar-get dis-t
+ri-bu-tion, RPM weights
+ []
+
+[20] [21] [22] [23] [24]
+File: data_etc/1d_ising.eps Graphic file (type eps)
+ <data_etc/1d_ising.eps>
+File: data_etc/2d_ising.eps Graphic file (type eps)
+ <data_etc/2d_ising.eps>
+[25] [26] [27] (./data_rpm/data.tex
+File: data_rpm/idea_vs_rwor_1d.eps Graphic file (type eps)
+ <data_rpm/idea_vs_rwor_1d.eps>
+File: data_rpm/idea_vs_rwor_2d.eps Graphic file (type eps)
+
+<data_rpm/idea_vs_rwor_2d.eps>
+File: data_rpm/rpm_rwor_2d_cutoff.eps Graphic file (type eps)
+ <data_rpm/rpm_rwor_2d_cutoff.eps>) [28] [29]
+[30] [31] [32]) [33] [34] [35]
+Chapter 5.
+(./his.tex [36
+
+]
+File: ./data_his/his1.eps Graphic file (type eps)
+ <./data_his/his1.eps>
+File: ./data_his/his2.eps Graphic file (type eps)
+ <./data_his/his2.eps> [37] [38] [39]
+File: ./data_his/searchspace.eps Graphic file (type eps)
+
+<./data_his/searchspace.eps> [40] [41] (./data_his/result_disc_his.tex
+File: ./data_his/his_1dising_s10.eps Graphic file (type eps)
+
+<./data_his/his_1dising_s10.eps>
+File: ./data_his/his_1dising_s50.eps Graphic file (type eps)
+ <./data_his/his_1dising_s50.eps>
+File: ./data_his/his_2dising_s10.eps Graphic file (type eps)
+
+<./data_his/his_2dising_s10.eps>
+File: ./data_his/his_2dising_s50.eps Graphic file (type eps)
+ <./data_his/his_2dising_s50.eps>) [42]
+[43] [44] [45]
+File: data_his/annealing_graph.eps Graphic file (type eps)
+ <data_his/annealing_graph.eps>
+File: data_his/his_graph.eps Graphic file (type eps)
+ <data_his/his_graph.eps> [46]
+[47] [48]) [49]
+Chapter 6.
+(./ers.tex [50
+
+] [51] [52] [53] [54] [55] (./data_ers/data.tex
+File: ./data_ers/t_ers_0d.eps Graphic file (type eps)
+
+<./data_ers/t_ers_0d.eps>
+File: ./data_ers/t_ers_0d_var.eps Graphic file (type eps)
+ <./data_ers/t_ers_0d_var.eps>
+File: ./data_ers/t_ers_1d.eps Graphic file (type eps)
+
+<./data_ers/t_ers_1d.eps>
+File: ./data_ers/t_ers_1d_var.eps Graphic file (type eps)
+ <./data_ers/t_ers_1d_var.eps>
+File: ./data_ers/t_ers_2d.eps Graphic file (type eps)
+
+<./data_ers/t_ers_2d.eps>
+File: ./data_ers/t_ers_2d_var.eps Graphic file (type eps)
+ <./data_ers/t_ers_2d_var.eps>
+File: ./data_ers/ers_0d.eps Graphic file (type eps)
+
+<./data_ers/ers_0d.eps>
+File: ./data_ers/ers_0d_var.eps Graphic file (type eps)
+ <./data_ers/ers_0d_var.eps>
+File: ./data_ers/ers_1d.eps Graphic file (type eps)
+ <./data_ers/ers_1d.eps>
+File: ./data_ers/ers_1d_var.eps Graphic file (type eps)
+
+<./data_ers/ers_1d_var.eps>
+File: ./data_ers/ers_2d.eps Graphic file (type eps)
+ <./data_ers/ers_2d.eps>
+File: ./data_ers/ers_2d_var.eps Graphic file (type eps)
+
+<./data_ers/ers_2d_var.eps>) [56] [57]
+File: data_ers/sds_vs_ers_ising2d.eps Graphic file (type eps)
+ <data_ers/sds_vs_ers_ising2d.eps>
+[58] [59] [60]) [61]
+Chapter 7.
+(./aexp.tex [62
+
+] [63]
+File: ./data_aexp/rosenbrock.eps Graphic file (type eps)
+ <./data_aexp/rosenbrock.eps>
+File: ./data_aexp/rastrigin.eps Graphic file (type eps)
+ <./data_aexp/rastrigin.eps>
+[64] [65]
+File: ./data_aexp/2d_100.eps Graphic file (type eps)
+ <./data_aexp/2d_100.eps>
+File: ./data_aexp/2d_95.eps Graphic file (type eps)
+ <./data_aexp/2d_95.eps>
+File: ./data_aexp/2d_90.eps Graphic file (type eps)
+
+<./data_aexp/2d_90.eps> [66] [67] (./data_aexp/cont.tex (./data_aexp/cont_1.tex
+)) [68] [69] [70] [71] [72] [73]) [74]
+Chapter 8.
+(./conclusion.tex [75
+
+] [76] [77]) (./appendix.tex [78]
+Appendix A.
+[79
+
+] (./data_his/result_disc_ann.tex) [80] [81] [82] [83]) (./doctor_thesis.bbl [8
+4]
+
+LaTeX Font Warning: Font shape `JT1/gt/m/it' undefined
+(Font)              using `JT1/gt/m/n' instead on input line 12.
+
+
+LaTeX Font Warning: Font shape `JY1/gt/m/it' undefined
+(Font)              using `JY1/gt/m/n' instead on input line 12.
+
+[85
+
+] [86] [87] [88]
+Missing character: There is no ^^bf in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^c8 in font cmr12!
+Missing character: There is no ^^a3 in font cmr12!
+Missing character: There is no ^^ca in font cmr12!
+Missing character: There is no ^^ac in font cmr12!
+Missing character: There is no ^^bb in font cmr12!
+Missing character: There is no ^^b6 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^c6 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^c0 in font cmr12!
+Missing character: There is no ^^c7 in font cmr12!
+Missing character: There is no ^^ae in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^cf in font cmr12!
+Missing character: There is no ^^b3 in font cmr12!
+Missing character: There is no ^^d8 in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^aa in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^c6 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^c0 in font cmr12!
+Missing character: There is no ^^be in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^b8 in font cmr12!
+Missing character: There is no ^^c6 in font cmr12!
+Missing character: There is no ^^b2 in font cmr12!
+Missing character: There is no ^^c7 in font cmr12!
+Missing character: There is no ^^ae in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^cf in font cmr12!
+Missing character: There is no ^^b3 in font cmr12!
+Missing character: There is no ^^d8 in font cmr12!
+Missing character: There is no ^^a1 in font cmr12!
+Missing character: There is no ^^a6 in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^fd in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^d7 in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^cf in font cmr12!
+Missing character: There is no ^^b3 in font cmr12!
+Missing character: There is no ^^d8 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^d7 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^ac in font cmr12!
+Missing character: There is no ^^a1 in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^a1 in font cmr12!
+Missing character: There is no ^^a6 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^d5 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^a7 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^a2 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^af in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^fe in font cmr12!
+Missing character: There is no ^^c8 in font cmr12!
+Missing character: There is no ^^fd in font cmr12!
+Missing character: There is no ^^c3 in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^c7 in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^b0 in font cmr12!
+Missing character: There is no ^^c1 in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^aa in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^a2 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b4 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^ba in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^c8 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^c6 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^ab in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^d5 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^a3 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^bf in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^fd in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^d7 in font cmr12!
+Missing character: There is no ^^bf in font cmr12!
+Missing character: There is no ^^fd in font cmr12!
+Missing character: There is no ^^b0 in font cmr12!
+Missing character: There is no ^^cb in font cmr12!
+Missing character: There is no ^^c4 in font cmr12!
+Missing character: There is no ^^ac in font cmr12!
+Missing character: There is no ^^bf in font cmr12!
+Missing character: There is no ^^cd in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^c0 in font cmr12!
+Missing character: There is no ^^b5 in font cmr12!
+Missing character: There is no ^^c8 in font cmr12!
+Missing character: There is no ^^fe in font cmr12!
+Missing character: There is no ^^c2 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^cd in font cmr12!
+Missing character: There is no ^^b5 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^c0 in font cmr12!
+Missing character: There is no ^^cf in font cmr12!
+Missing character: There is no ^^c2 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^ba in font cmr12!
+Missing character: There is no ^^b4 in font cmr12!
+Missing character: There is no ^^c6 in font cmr12!
+Missing character: There is no ^^a3 in font cmr12!
+Missing character: There is no ^^c0 in font cmr12!
+Missing character: There is no ^^b0 in font cmr12!
+Missing character: There is no ^^be in font cmr12!
+Missing character: There is no ^^b0 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^b6 in font cmr12!
+Missing character: There is no ^^cc in font cmr12!
+Missing character: There is no ^^c0 in font cmr12!
+Missing character: There is no ^^c9 in font cmr12!
+Missing character: There is no ^^a7 in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^d7 in font cmr12!
+Missing character: There is no ^^bb in font cmr12!
+Missing character: There is no ^^bb in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^fd in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^d7 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^de in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b3 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^d5 in font cmr12!
+Missing character: There is no ^^cf in font cmr12!
+Missing character: There is no ^^a2 in font cmr12!
+Missing character: There is no ^^ba in font cmr12!
+Missing character: There is no ^^bf in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^c6 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^ab in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^a1 in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^c8 in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^fe in font cmr12!
+Missing character: There is no ^^ca in font cmr12!
+Missing character: There is no ^^d5 in font cmr12!
+Missing character: There is no ^^b4 in font cmr12!
+Missing character: There is no ^^c8 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^c4 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^c8 in font cmr12!
+Missing character: There is no ^^d2 in font cmr12!
+Missing character: There is no ^^c0 in font cmr12!
+Missing character: There is no ^^b2 in font cmr12!
+Missing character: There is no ^^ba in font cmr12!
+Missing character: There is no ^^c7 in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^ac in font cmr12!
+Missing character: There is no ^^b2 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^a2 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b4 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^ba in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^e0 in font cmr12!
+Missing character: There is no ^^be in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^b8 in font cmr12!
+Missing character: There is no ^^c6 in font cmr12!
+Missing character: There is no ^^b2 in font cmr12!
+Missing character: There is no ^^b2 in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^ca in font cmr12!
+Missing character: There is no ^^bf in font cmr12!
+Missing character: There is no ^^b1 in font cmr12!
+Missing character: There is no ^^d1 in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^f7 in font cmr12!
+Missing character: There is no ^^b0 in font cmr12!
+Missing character: There is no ^^cb in font cmr12!
+Missing character: There is no ^^c6 in font cmr12!
+Missing character: There is no ^^a3 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^a8 in font cmr12!
+Missing character: There is no ^^b0 in font cmr12!
+Missing character: There is no ^^ec in font cmr12!
+Missing character: There is no ^^b5 in font cmr12!
+Missing character: There is no ^^d7 in font cmr12!
+Missing character: There is no ^^ca in font cmr12!
+Missing character: There is no ^^dd in font cmr12!
+Missing character: There is no ^^c0 in font cmr12!
+Missing character: There is no ^^a3 in font cmr12!
+Missing character: There is no ^^cc in font cmr12!
+Missing character: There is no ^^e9 in font cmr12!
+Missing character: There is no ^^c3 in font cmr12!
+Missing character: There is no ^^dd in font cmr12!
+Missing character: There is no ^^c6 in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^c7 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^aa in font cmr12!
+Missing character: There is no ^^c2 in font cmr12!
+Missing character: There is no ^^f2 in font cmr12!
+Missing character: There is no ^^cd in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^c2 in font cmr12!
+Missing character: There is no ^^ac in font cmr12!
+Missing character: There is no ^^a1 in font cmr12!
+Missing character: There is no ^^a6 in font cmr12!
+Missing character: There is no ^^b8 in font cmr12!
+Missing character: There is no ^^a1 in font cmr12!
+Missing character: There is no ^^c4 in font cmr12!
+Missing character: There is no ^^a6 in font cmr12!
+Missing character: There is no ^^bf in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^b8 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^c0 in font cmr12!
+Missing character: There is no ^^b4 in font cmr12!
+Missing character: There is no ^^c8 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+ [89]
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^cf in font cmr12!
+Missing character: There is no ^^c0 in font cmr12!
+Missing character: There is no ^^a1 in font cmr12!
+Missing character: There is no ^^c9 in font cmr12!
+Missing character: There is no ^^d7 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^c7 in font cmr12!
+Missing character: There is no ^^a1 in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^bf in font cmr12!
+Missing character: There is no ^^b3 in font cmr12!
+Missing character: There is no ^^d8 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^ac in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^a2 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b4 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^ba in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^e0 in font cmr12!
+Missing character: There is no ^^b6 in font cmr12!
+Missing character: There is no ^^a6 in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^a9 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^d0 in font cmr12!
+Missing character: There is no ^^c8 in font cmr12!
+Missing character: There is no ^^c7 in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^cf in font cmr12!
+Missing character: There is no ^^c0 in font cmr12!
+Missing character: There is no ^^a1 in font cmr12!
+Missing character: There is no ^^c9 in font cmr12!
+Missing character: There is no ^^d7 in font cmr12!
+Missing character: There is no ^^c2 in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^c4 in font cmr12!
+Missing character: There is no ^^be in font cmr12!
+Missing character: There is no ^^ba in font cmr12!
+Missing character: There is no ^^b3 in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^a8 in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^c8 in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^fd in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^d7 in font cmr12!
+Missing character: There is no ^^be in font cmr12!
+Missing character: There is no ^^d8 in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^d8 in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^b2 in font cmr12!
+Missing character: There is no ^^cd in font cmr12!
+Missing character: There is no ^^b6 in font cmr12!
+Missing character: There is no ^^b6 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b3 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^ca in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^d2 in font cmr12!
+Missing character: There is no ^^dd in font cmr12!
+Missing character: There is no ^^b6 in font cmr12!
+Missing character: There is no ^^a7 in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^c4 in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^aa in font cmr12!
+Missing character: There is no ^^c0 in font cmr12!
+Missing character: There is no ^^b5 in font cmr12!
+Missing character: There is no ^^be in font cmr12!
+Missing character: There is no ^^cf in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^cd in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^b8 in font cmr12!
+Missing character: There is no ^^b3 in font cmr12!
+Missing character: There is no ^^cd in font cmr12!
+Missing character: There is no ^^b2 in font cmr12!
+Missing character: There is no ^^f0 in font cmr12!
+Missing character: There is no ^^be in font cmr12!
+Missing character: There is no ^^c4 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^b8 in font cmr12!
+Missing character: There is no ^^f9 in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^d7 in font cmr12!
+Missing character: There is no ^^bb in font cmr12!
+Missing character: There is no ^^bb in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^fd in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^d7 in font cmr12!
+Missing character: There is no ^^b3 in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^a8 in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^d7 in font cmr12!
+Missing character: There is no ^^bb in font cmr12!
+Missing character: There is no ^^bb in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^bf in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^a1 in font cmr12!
+Missing character: There is no ^^b4 in font cmr12!
+Missing character: There is no ^^c8 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+) [90] (./publication.tex
+Missing character: There is no ^^c8 in font cmr12!
+Missing character: There is no ^^ae in font cmr12!
+Missing character: There is no ^^c7 in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^cc in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^f9 in font cmr12!
+Missing character: There is no ^^c2 in font cmr12!
+Missing character: There is no ^^bf in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^c0 in font cmr12!
+Missing character: There is no ^^c3 in font cmr12!
+Missing character: There is no ^^b5 in font cmr12!
+Missing character: There is no ^^ba in font cmr12!
+Missing character: There is no ^^bf in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^ba in font cmr12!
+Missing character: There is no ^^c7 in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^ac in font cmr12!
+Missing character: There is no ^^b2 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^d7 in font cmr12!
+Missing character: There is no ^^bb in font cmr12!
+Missing character: There is no ^^bb in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^cb in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^aa in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^b1 in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^fd in font cmr12!
+Missing character: There is no ^^c2 in font cmr12!
+Missing character: There is no ^^ab in font cmr12!
+Missing character: There is no ^^cc in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^bf in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^b3 in font cmr12!
+Missing character: There is no ^^ac in font cmr12!
+Missing character: There is no ^^c1 in font cmr12!
+Missing character: There is no ^^d8 in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^bf in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^dd in font cmr12!
+Missing character: There is no ^^a1 in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^bf in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b5 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^d7 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b0 in font cmr12!
+Missing character: There is no ^^be in font cmr12!
+Missing character: There is no ^^c0 in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^aa in font cmr12!
+Missing character: There is no ^^b3 in font cmr12!
+Missing character: There is no ^^d8 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^ac in font cmr12!
+Missing character: There is no ^^cd in font cmr12!
+Missing character: There is no ^^fd in font cmr12!
+Missing character: There is no ^^cf in font cmr12!
+Missing character: There is no ^^c0 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^af in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^c3 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^d7 in font cmr12!
+Missing character: There is no ^^c8 in font cmr12!
+Missing character: There is no ^^ae in font cmr12!
+Missing character: There is no ^^c7 in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^cc in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^f9 in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^ab in font cmr12!
+Missing character: There is no ^^b8 in font cmr12!
+Missing character: There is no ^^ca in font cmr12!
+Missing character: There is no ^^c1 in font cmr12!
+Missing character: There is no ^^c8 in font cmr12!
+Missing character: There is no ^^bf in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b2 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b5 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^d7 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b0 in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^c4 in font cmr12!
+Missing character: There is no ^^c6 in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^c8 in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^ba in font cmr12!
+Missing character: There is no ^^c7 in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^ac in font cmr12!
+Missing character: There is no ^^b2 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^a1 in font cmr12!
+Missing character: There is no ^^c2 in font cmr12!
+Missing character: There is no ^^bf in font cmr12!
+Missing character: There is no ^^ca in font cmr12!
+Missing character: There is no ^^ad in font cmr12!
+Missing character: There is no ^^b4 in font cmr12!
+Missing character: There is no ^^d8 in font cmr12!
+Missing character: There is no ^^bf in font cmr12!
+Missing character: There is no ^^d8 in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^ac in font cmr12!
+Missing character: There is no ^^cd in font cmr12!
+Missing character: There is no ^^d1 in font cmr12!
+Missing character: There is no ^^bf in font cmr12!
+Missing character: There is no ^^cd in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^a9 in font cmr12!
+Missing character: There is no ^^c3 in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^c7 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^b3 in font cmr12!
+Missing character: There is no ^^d8 in font cmr12!
+Missing character: There is no ^^b2 in font cmr12!
+Missing character: There is no ^^b4 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^ca in font cmr12!
+Missing character: There is no ^^c2 in font cmr12!
+Missing character: There is no ^^b1 in font cmr12!
+Missing character: There is no ^^a3 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^b2 in font cmr12!
+Missing character: There is no ^^cb in font cmr12!
+Missing character: There is no ^^c8 in font cmr12!
+Missing character: There is no ^^ae in font cmr12!
+Missing character: There is no ^^c7 in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^cc in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^f9 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^a1 in font cmr12!
+Missing character: There is no ^^b8 in font cmr12!
+Missing character: There is no ^^b5 in font cmr12!
+Missing character: There is no ^^c2 in font cmr12!
+Missing character: There is no ^^bf in font cmr12!
+Missing character: There is no ^^ca in font cmr12!
+Missing character: There is no ^^ad in font cmr12!
+Missing character: There is no ^^b4 in font cmr12!
+Missing character: There is no ^^d8 in font cmr12!
+Missing character: There is no ^^bf in font cmr12!
+Missing character: There is no ^^c7 in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^ac in font cmr12!
+Missing character: There is no ^^b2 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^a1 in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^c4 in font cmr12!
+Missing character: There is no ^^c6 in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^d7 in font cmr12!
+Missing character: There is no ^^c2 in font cmr12!
+Missing character: There is no ^^ac in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^ab in font cmr12!
+Missing character: There is no ^^c6 in font cmr12!
+Missing character: There is no ^^b0 in font cmr12!
+Missing character: There is no ^^c0 in font cmr12!
+Missing character: There is no ^^a9 in font cmr12!
+Missing character: There is no ^^b8 in font cmr12!
+Missing character: There is no ^^d8 in font cmr12!
+Missing character: There is no ^^b2 in font cmr12!
+Missing character: There is no ^^a1 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^c6 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^a6 in font cmr12!
+Missing character: There is no ^^be in font cmr12!
+Missing character: There is no ^^e7 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^c6 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^a6 in font cmr12!
+Missing character: There is no ^^be in font cmr12!
+Missing character: There is no ^^d8 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^d1 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^d6 in font cmr12!
+Missing character: There is no ^^b1 in font cmr12!
+Missing character: There is no ^^f1 in font cmr12!
+Missing character: There is no ^^c8 in font cmr12!
+Missing character: There is no ^^ae in font cmr12!
+Missing character: There is no ^^c7 in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^cc in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^f9 in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^ac in font cmr12!
+Missing character: There is no ^^b1 in font cmr12!
+Missing character: There is no ^^fe in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^aa in font cmr12!
+Missing character: There is no ^^c3 in font cmr12!
+Missing character: There is no ^^b5 in font cmr12!
+Missing character: There is no ^^ba in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^b0 in font cmr12!
+Missing character: There is no ^^ac in font cmr12!
+Missing character: There is no ^^b3 in font cmr12!
+Missing character: There is no ^^cb in font cmr12!
+Missing character: There is no ^^b4 in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^af in font cmr12!
+Missing character: There is no ^^ba in font cmr12!
+Missing character: There is no ^^c7 in font cmr12!
+Missing character: There is no ^^c5 in font cmr12!
+Missing character: There is no ^^ac in font cmr12!
+Missing character: There is no ^^b2 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^a1 in font cmr12!
+Missing character: There is no ^^a4 in font cmr12!
+Missing character: There is no ^^ce in font cmr12!
+Missing character: There is no ^^c4 in font cmr12!
+Missing character: There is no ^^c6 in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^d7 in font cmr12!
+Missing character: There is no ^^c2 in font cmr12!
+Missing character: There is no ^^ac in font cmr12!
+Missing character: There is no ^^bc in font cmr12!
+Missing character: There is no ^^ab in font cmr12!
+Missing character: There is no ^^c6 in font cmr12!
+Missing character: There is no ^^b0 in font cmr12!
+Missing character: There is no ^^c0 in font cmr12!
+Missing character: There is no ^^a9 in font cmr12!
+Missing character: There is no ^^b8 in font cmr12!
+Missing character: There is no ^^d8 in font cmr12!
+Missing character: There is no ^^b2 in font cmr12!
+Missing character: There is no ^^a1 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^c6 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^a6 in font cmr12!
+Missing character: There is no ^^be in font cmr12!
+Missing character: There is no ^^e7 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b7 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^c6 in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
+Missing character: There is no ^^a6 in font cmr12!
+Missing character: There is no ^^be in font cmr12!
+Missing character: There is no ^^d8 in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^d1 in font cmr12!
+Missing character: There is no ^^b9 in font cmr12!
+Missing character: There is no ^^d6 in font cmr12!
+Missing character: There is no ^^b1 in font cmr12!
+Missing character: There is no ^^f1 in font cmr12!
+) [91] [92]
+(./doctor_thesis.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1304 strings out of 494375
+ 16351 string characters out of 1170804
+ 95639 words of memory out of 1500000
+ 4574 multiletter control sequences out of 10000+50000
+ 19053 words of font info for 73 fonts, out of 2000000 for 2000
+ 678 hyphenation exceptions out of 8191
+ 25i,13n,43p,273b,627s stack positions out of 3000i,500n,5000p,200000b,5000s
+
+Output written on doctor_thesis.dvi (100 pages, 296800 bytes).

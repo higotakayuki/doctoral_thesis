@@ -1,0 +1,214 @@
+%\documentclass[10pt,a4paper,oneside]{book}
+\documentclass[12pt,a4paper,oneside]{book}
+\usepackage{epsf,graphicx,comment}
+\usepackage{cite}   
+\usepackage{fancyhdr}
+\usepackage{multirow}
+\usepackage{url}
+
+%\begin{comment}           
+\pagestyle{fancy}
+%\lhead[\thepage]{\rightmark}
+%\rhead[\leftmark]{\thepage}
+%\lhead[\thepage\hspace{.5in} \leftmark]{}
+%\rhead[]{\rightmark\hspace{.5in} \thepage}
+\lhead[\leftmark]{}
+\rhead[]{\rightmark}
+\cfoot{\thepage}
+\setlength{\headheight}{15pt}
+%\end{comment}
+ 
+\newcommand{\spcen}{\centering \vskip 0in}
+\def\figlength{0.8}
+\def\hfiglength{0.45}
+
+%\def\figlength{0.3}
+%\def\hfiglength{0.3}
+
+
+\newlength{\figskiplength}
+\setlength{\figskiplength}{0.25in}
+\newlength{\tableskiplength}
+\setlength{\tableskiplength}{0.15in}
+\newcommand{\tabletitle}[2]{Results of {#1} for {#2}.}
+\newcommand{\aexpcontinuous}{The Number of Successful Trials Finding
+Global Optima of }
+\newcommand{\aexpcontinuousnum}{The avege number of function evaluations of }
+\newcommand{\aexpcontinuousval}{The average cost function value
+of the obtained solutions of }
+\newcommand{\argmax}{\mathop{\rm argmax}\limits}
+\newlength{\algoindenthsp}
+\setlength{\algoindenthsp}{3.5mm}
+\newcommand{\algoindent}{\hspace{\algoindenthsp}}
+\newlength{\algoremain}
+\setlength{\algoremain}{\linewidth}
+\addtolength{\algoremain}{-17.5mm}
+
+\title{Research on the Importance Sampling Method
+for Evolutionary Algorithms Based on Probability Models}
+\author{Takayuki Higo}
+\date{}
+% 全体のレイアウト    マージンは上下左右に約 3cm
+
+%\setlength{\footheight}{1in}
+%\setlength{\headsep}{.5in}
+%\setlength{\footskip}{.5in}
+
+
+%\setlength{\columnsep}{0.2in}
+%\setlength{\textwidth}{\paperwidth}
+
+
+\begin{comment}
+%save papers
+\setlength{\topmargin}{0in}
+\addtolength{\textwidth}{2in}
+\addtolength{\oddsidemargin}{-1in}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}
+\end{comment}
+
+%\topmargin      0.3cm
+%\textwidth      40zw   % 14.815 cm
+%\oddsidemargin  0.6cm
+%\evensidemargin 0.6cm
+%\headsep        0.8cm  % ヘッダと本文の間隔
+
+%   ページスタイル
+
+%\pagestyle{myheadings}
+
+%---------------------- 文書の始まり -----------------------
+
+\begin{document}
+%\maketitle
+
+%\input{mystyle.tex}
+
+%  行間と行数の設定
+%\renewcommand{\baselinestretch}{2.0}
+
+\setlength{\baselineskip}{1.4zw}
+%\renewcommand{\baselinestretch}{1}
+
+%\setlength{\textheight}{34\baselineskip}% ここでの設定は表紙には効かない
+%\addtolength{\textheight}{\topskip}     % この場所で設定する必要がある
+% 行数は 34 行  topskip は文字領域の上端から
+% 1 行目のベースラインまでの距離
+
+% 図のレイアウト
+%\setcounter{topnumber}{10}%    ページ上部の図表は 5 個まで
+%\def\topfraction{1.00}%       ページの上 1.00 まで図表で占めて可
+%\setcounter{bottomnumber}{10}% ページ下部の図表は 5 個まで
+%\def\bottomfraction{1.00}%    ページの下 1.00 まで図表で占めて可
+%\setcounter{totalnumber}{10}% ページあたりの図表は 10 個まで
+\def\textfraction{0.04}%      ページうち本文が占める割合の下限
+%        これを 0 にすると本文が 1 行だけのページが出来る
+%        0.04 にすると 1 行だけのページは防げる
+%        0.1 くらいが良いかも知れない
+%\def\floatpagefraction{0.7}%  図表だけのページは少なくともこれだけを図表が占める
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\maketitle
+%\addtolength{\oddsidemargin}{.3in}
+%\addtolength{\evensidemargin}{-.3in}
+\frontmatter
+\pagestyle{plain}
+\chapter{Abstract}
+\input{abstract.tex}
+
+%\pagenumbering{roman}%     目次はローマ数字
+\chapter{Acknowledgments}                     % 章番号は付けない
+%\addcontentsline{toc}{chapter}{Acknowledgment}% 目次に出力
+%\markboth{}{}                       % ヘッダの左右は空にする
+\input{acknowledgment.tex}
+
+\pagestyle{fancy}
+\lhead[\leftmark]{}
+\rhead[]{\rightmark}
+\tableofcontents
+
+\mainmatter
+\renewcommand{\chaptermark}[1]{\markboth{Chapter \thechapter.\ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}
+
+
+
+
+\chapter{Introduction}
+\input{introduction.tex}
+
+\chapter{Preliminaries}
+\label{chapter-preliminary}
+\input{prelim.tex}
+
+
+\chapter{Evolutionary Algorithms Based on Probability Models}
+\label{chapter-eapm}
+\input{eapm.tex}
+
+\chapter{Maintaining Historical Samples}
+\label{chapter-rpm}
+\input{rpm.tex}
+
+\chapter{Hierarchical Control of The Divergence}
+\label{chapter-his}
+\input{his.tex}
+
+\chapter{Convergence Schedule}
+\label{chapter-ers}
+\input{ers.tex}
+
+\chapter{Advanced Experimental Analysis}
+\label{chapter-aexp}
+\input{aexp.tex}
+
+\chapter{Conclusions and Future Directions}
+\label{chapter-conclusion}
+\input{conclusion.tex}
+
+\addcontentsline{toc}{chapter}{Appendix}
+\appendix
+\input{appendix.tex}
+
+\addcontentsline{toc}{chapter}{Bibliography} % 目次に出力
+
+%%
+\nocite{blickle:96comparison}
+\nocite{denny:is}
+\nocite{lundy:sa}
+\nocite{muhlenbein:eda}
+\nocite{lozano:eda}
+\nocite{christian:mcsm}
+\nocite{pelikan:survey}
+\nocite{hauschild:spinglass}
+\nocite{hansen:cma}
+\nocite{kern:cma}
+\nocite{henmi:is}
+\nocite{higo:his}
+\nocite{higo:rpm}
+%japan
+%\begin{comment}
+\nocite{sfrontier:11}
+\nocite{sfrontier:3}
+\nocite{iba:mcmc}
+\nocite{higuchi:ga-pf-j}
+\nocite{nagao:optimization}
+\nocite{fukao:distsystem}
+\nocite{watanabe:probstat}
+\nocite{watanabe:slearning}
+\nocite{greiner:statphy}
+%\end{comment}
+%%
+\bibliographystyle{jplain}
+\bibliography{higo}
+
+\newpage
+\section*{List of Publications}
+\input{publication.tex}
+
+
+
+
+
+\end{document}

@@ -1,0 +1,47 @@
+
+% 段落の始めの字下げ幅
+
+\parindent      1zw
+
+%-------- 行間をつめた箇条書き -------
+
+\newenvironment{itemize2}%  
+{%
+   \begin{list}{$\bullet$\ \ }% 見出し記号／直後の空白を調節
+   {%
+      \setlength{\itemindent}{0pt}
+      \setlength{\leftmargin}{3zw}%  左のインデント
+      \setlength{\rightmargin}{0zw}% 右のインデント
+      \setlength{\labelsep}{0zw}%    黒丸と説明文の間
+      \setlength{\labelwidth}{3zw}%  ラベルの幅
+      \setlength{\itemsep}{0em}%     項目ごとの改行幅
+      \setlength{\parsep}{0em}%      段落での改行幅
+      \setlength{\listparindent}{0zw}% 段落での一字下り
+   }
+}{%
+   \end{list}%
+}
+
+%---- 番号つき箇条書き   1. の形式  -----------
+
+\newcounter{enum2}
+\newenvironment{enumerate2}{%
+   \begin{list}%
+   {%
+      \arabic{enum2}.\ \,%  見出し記号／直後の空白を調節
+   }%
+   {%
+      \usecounter{enum2}
+      \setlength{\itemindent}{0zw}%  ここは 0 に固定
+      \setlength{\leftmargin}{3zw}%  左のインデント
+      \setlength{\rightmargin}{0zw}% 右のインデント
+      \setlength{\labelsep}{0zw}%    黒丸と説明文の間
+      \setlength{\labelwidth}{3zw}%  ラベルの幅
+      \setlength{\itemsep}{0em}%     項目ごとの改行幅
+      \setlength{\parsep}{0em}%      段落での改行幅
+      \setlength{\listparindent}{0zw}% 段落での一字下り
+   }
+}{%
+   \end{list}%
+}
+

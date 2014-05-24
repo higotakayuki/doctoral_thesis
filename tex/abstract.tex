@@ -1,0 +1,71 @@
+Evolutionary algorithms based on probability models (EAPM)
+are algorithms inspired by biological systems.
+The essential mechanism of EAPM consists of both
+statistical estimation and Monte Carlo integration.
+By using the two techniques, 
+EAPM estimate the distribution of
+promising solutions and generate samples from it. 
+
+This thesis improves the basic framework of EAPM
+in three directions.
+First, this thesis proposes a technique for reusing 
+the historical samples.
+The difficulty of employing the historical samples is
+that
+simply selecting good historical samples causes 
+the bias of the statistical estimation.
+The proposed method weights historical samples
+in terms of importance sampling 
+for possibly and theoretically removing the bias.
+Second,
+this thesis focuses on the convergence mechanism.
+In general EAPM,
+highly random sampling is employed in early stages,
+and the randomness is gradually decreased.
+Finally, the sampler distribution converges a point.
+This mechanism involves the problem of local optima.
+To overcome this problem,
+this thesis proposes to mix samples with different randomness.
+In other words, highly random sampling, slightly random sampling, and
+converged sampling are carried out simultaneously and iteratively.
+The point is that highly random samples can provide opportunities to escape 
+from local optima.
+However, the difficulty is to retrieve information from mixed samples.
+In the proposed method, importance sampling with a mixture distribution
+plays an important role which
+provides theoretical validity for retrieving information from mixed samples.
+Third,
+this thesis proposes a novel convergence schedule.
+In EAPM,
+it is important not only to control the convergence speed
+but also to determine its speed.
+Actually, there is no convergence schedule with theoretical discussions.
+This thesis reveals the relationship between
+the randomness of the target distribution
+(i.e., the ideal sampler distribution which guides 
+where samples should be generated)
+and the accuracy of the statistical estimation,
+that is,
+the entropy of the target distribution and the Fisher information.
+As a result, we obtain an approximately optimal convergence schedule,
+where the entropy of the target distribution
+is linearly reduced.
+This implies that 
+the algorithm converges in linear time for a problem with an exponential
+size of the search space.
+
+Consequently, this thesis theoretically and mathematically extends
+the basic framework of EAPM in new two directions:
+(1)mixing current and  historical samples,
+ and (2)mixing samples with different randomness.
+On the other hand, the proposed convergence schedule is 
+an essential element of EAPM and the overall improvement can be
+expected.
+Through experiments with discrete problems and continuous problems,
+the effectiveness of each improvement is confirmed 
+and
+the salient features are revealed:
+(1) employing historical samples overcomes the instability
+in statistical estimation,
+(2) mixing randomness overcomes the problem of local optima, and
+(3) the proposed convergence schedule is a practical method.

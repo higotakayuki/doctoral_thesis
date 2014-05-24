@@ -1,0 +1,111 @@
+
+\begin{table}[tbp]
+\centering
+\caption{\aexpcontinuous EDA.}
+\begin{tabular}{|l|r|r|r|r|}
+\hline
+ & \multicolumn{1}{c|}{$M$} & \multicolumn{1}{l|}{Rosenbrock} & \multicolumn{1}{l|}{Rastrigin} & \multicolumn{1}{l|}{S-Rastrigin} \\ \hline
+ & 500 & 0 & 10 & 10 \\ \cline{2-5}
+UG & 1000 & 0 & 10 & 10 \\ \cline{ 2- 5}
+ & 3000 & 0 & 10 & 10 \\ \hline
+ & 500 & 0 & 10 & 0 \\ \cline{ 2- 5}
+MG & 1000 & 0 & 10 & 0 \\ \cline{ 2- 5}
+ & 3000 & 0 & 10 & 0 \\ \hline
+\end{tabular}
+\label{aexp-cont-best-eda}
+%\end{table}
+
+
+%\begin{table}[tbp]
+\centering
+\caption{\aexpcontinuous RPM.}
+\begin{tabular}{|l|r|r|r|}
+\hline
+ & \multicolumn{1}{l|}{$N=M$} & \multicolumn{1}{l|}{Rosenbrock} & \multicolumn{1}{l|}{Rastrigin} \\ \hline
+ & 50 & 9 & 0 \\ \cline{ 2- 4}
+UG & 100 & 10 & 0 \\ \cline{ 2- 4}
+ & 200 & 10 & 1 \\ \hline
+ & 50 & 10 & 0 \\ \cline{ 2- 4}
+MG & 100 & 10 & 0 \\ \cline{ 2- 4}
+ & 200 & 10 & 0 \\ \hline
+\end{tabular}
+\label{aexp-cont-best-rpm}
+%\end{table}
+
+%\begin{table}[tbp]
+\centering
+\caption{\aexpcontinuous HIS.}
+\begin{tabular}{|l|r|r|r|r|}
+\hline
+ & \multicolumn{1}{l|}{$L$} & \multicolumn{1}{l|}{Rosenbrock} & \multicolumn{1}{l|}{Rastrigin} & \multicolumn{1}{l|}{S-Rastrigin} \\ \hline
+ & 20 & 0 & 10 & 10 \\ \cline{2-5}
+UG & 40 & 0 & 10 & 10 \\ \cline{ 2- 5}
+ &  60 & 0 & 10 & 10 \\ \hline
+ &  20& 10 & 5 & 2 \\ \cline{ 2- 5}
+MG & 40 & 10 & 6 & 7 \\ \cline{ 2- 5}
+ & 60 & 10 & 10 & 10 \\ \hline
+\end{tabular}
+\label{aexp-cont-best-his}
+\end{table}
+
+\input{./data_aexp/cont_1.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{comment}
+\begin{table}[tbp]
+\centering
+\caption{The Number of Successful Trials Finding Global Optima with Univariate Gaussian.}
+\begin{tabular}{|c|r|r|r|}
+\hline
+& \multicolumn{1}{c|}{EDA} & \multicolumn{1}{c|}{RPM} & \multicolumn{1}{c|}{HIS} \\ \hline
+Rosenbrock & 0 & 10 & 0 \\ \hline
+Rastrigin & 10 & 0 & 10 \\ \hline
+S-Rastrigin & 10 & 0 & 10 \\ \hline
+\end{tabular}
+\label{aexp-ugauss}
+\end{table}
+
+\begin{table}[tbp]
+\centering
+\caption{The Number of Successful Traials Finding Global Optima with
+ Multivariate Gaussian.}
+\begin{tabular}{|c|r|r|r|}
+\hline
+& \multicolumn{1}{c|}{EDA} & \multicolumn{1}{c|}{RPM} & \multicolumn{1}{c|}{HIS} \\ \hline
+Rosenbrock & 0 & 10 & 10 \\ \hline
+Rastrigin & 10 & 0 & 3 \\ \hline
+S-Rastrigin & 0 & 0 & 3 \\ \hline
+\end{tabular}
+\label{aexp-mgauss}
+\end{table}
+
+\begin{table}[tbp]
+\footnotesize
+\centering
+\caption{The Number of Function Evalutions with Univariate Gaussian.}
+\begin{tabular}{|c|rr|rr|rr|}
+\hline
+ & \multicolumn{2}{c|}{EDA}  & \multicolumn{2}{c|}{RPM} &
+ \multicolumn{2}{c|}{HIS} \\ \hline 
+Rosenbrock & 820800 & (2749.55) & 1188310 & (53425.15) & 1000011 & (0) \\ \hline
+Rastrigin & 891600 & (8979.98) & 1119080 & (616628.28) & 1828426.1 & (2481839.34) \\ \hline
+S-Rastrigin & 985800 & (19218.74) & 1416100 & (429720.21) & 133036.9 & (116780.09) \\ \hline
+\end{tabular}
+\label{aexp-ugauss-eva}
+\end{table}
+
+\begin{table}[tbp]
+\footnotesize
+\centering
+\caption{The Number of Function Evaluations with Multivariate Gaussian.}
+\begin{tabular}{|c|rr|rr|rr|}
+\hline
+& \multicolumn{2}{c|}{EDA} &   \multicolumn{2}{c|}{RPM} &
+ \multicolumn{2}{c|}{HIS}  \\ \hline
+Rosenbrock & 719700 & (8100) & 644750 & (16173.95) & 228130 & (21290.47) \\ \hline
+Rastrigin & 985800 & (11864.23) & 989410 & (29525.46) & 405110 & (146323) \\ \hline
+S-Rastrigin & 1144500 & (136802.96) & 929570 & (142713.99) & 418500 & (128180.5) \\ \hline
+\end{tabular}
+\label{aexp-mgauss-eva}
+\end{table}
+\end{comment}

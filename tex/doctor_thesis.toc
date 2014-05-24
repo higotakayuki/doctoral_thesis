@@ -1,0 +1,122 @@
+\contentsline {chapter}{Abstract}{i}
+\contentsline {chapter}{Acknowledgments}{iii}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Background}{1}
+\contentsline {section}{\numberline {1.2}Objectives and Contributions}{2}
+\contentsline {section}{\numberline {1.3}Outline}{4}
+\contentsline {chapter}{\numberline {2}Preliminaries}{5}
+\contentsline {section}{\numberline {2.1}Computational Optimization}{5}
+\contentsline {section}{\numberline {2.2}Monte Carlo Integration (MCI)}{6}
+\contentsline {subsection}{\numberline {2.2.1}Basics of MCI}{6}
+\contentsline {subsection}{\numberline {2.2.2}Importance Sampling}{7}
+\contentsline {section}{\numberline {2.3}Statistical Estimation}{8}
+\contentsline {subsection}{\numberline {2.3.1}Kullback-Leibler Divergence}{8}
+\contentsline {subsection}{\numberline {2.3.2}Maximum Likelihood Estimation}{9}
+\contentsline {subsection}{\numberline {2.3.3}Related Topics}{9}
+\contentsline {chapter}{\numberline {3}Evolutionary Algorithms Based on Probability Models}{10}
+\contentsline {section}{\numberline {3.1}Overview}{10}
+\contentsline {section}{\numberline {3.2}Target distribution}{11}
+\contentsline {subsection}{\numberline {3.2.1}Partially Uniform Distribution}{11}
+\contentsline {subsection}{\numberline {3.2.2}Boltzmann Distribution}{12}
+\contentsline {section}{\numberline {3.3}Adaptive Improvement of Sampler Distribution}{12}
+\contentsline {section}{\numberline {3.4}Annealing}{13}
+\contentsline {section}{\numberline {3.5}A Practical Approximation}{14}
+\contentsline {chapter}{\numberline {4}Maintaining Historical Samples}{17}
+\contentsline {section}{\numberline {4.1}Introduction}{17}
+\contentsline {section}{\numberline {4.2}Resampling Population Model (RPM)}{18}
+\contentsline {subsection}{\numberline {4.2.1}Weighted Samples Approximating Distribution}{18}
+\contentsline {subsection}{\numberline {4.2.2}Algorithm}{20}
+\contentsline {subsubsection}{Effective Number of Samples}{21}
+\contentsline {subsection}{\numberline {4.2.3}Numerical Calculation Details}{22}
+\contentsline {section}{\numberline {4.3}Experiments}{23}
+\contentsline {subsection}{\numberline {4.3.1}Benchmark Problems}{25}
+\contentsline {subsubsection}{Onemax}{25}
+\contentsline {subsubsection}{1D Ising model}{25}
+\contentsline {subsubsection}{2D Ising model}{25}
+\contentsline {subsubsection}{Adding Noise}{26}
+\contentsline {subsection}{\numberline {4.3.2}Experimental Setup}{26}
+\contentsline {subsection}{\numberline {4.3.3}Results}{28}
+\contentsline {section}{\numberline {4.4}Discussion}{30}
+\contentsline {subsection}{\numberline {4.4.1}Diversity of Population}{30}
+\contentsline {subsection}{\numberline {4.4.2}Control of Convergence Speed}{33}
+\contentsline {section}{\numberline {4.5}Summary}{33}
+\contentsline {chapter}{\numberline {5}Hierarchical Control of The Divergence}{36}
+\contentsline {section}{\numberline {5.1}Introduction}{36}
+\contentsline {section}{\numberline {5.2}Hierarchical Importance Sampling (HIS)}{37}
+\contentsline {subsection}{\numberline {5.2.1}Theoretical Overview}{37}
+\contentsline {subsection}{\numberline {5.2.2}Comparison between HIS and the EAPM}{37}
+\contentsline {subsection}{\numberline {5.2.3}Target Distribution Control}{38}
+\contentsline {subsection}{\numberline {5.2.4}Practical Procedure}{41}
+\contentsline {section}{\numberline {5.3}Experiments}{42}
+\contentsline {subsection}{\numberline {5.3.1}Experimental Setup}{42}
+\contentsline {subsubsection}{HIS Setting}{42}
+\contentsline {subsection}{\numberline {5.3.2}Results}{42}
+\contentsline {section}{\numberline {5.4}Discussion}{45}
+\contentsline {subsection}{\numberline {5.4.1}Escaping Local Optima}{45}
+\contentsline {subsection}{\numberline {5.4.2}Iterative EDA}{46}
+\contentsline {subsection}{\numberline {5.4.3}Parameters}{47}
+\contentsline {subsection}{\numberline {5.4.4}Computational Cost}{48}
+\contentsline {subsection}{\numberline {5.4.5}Mixture Model-based EDAs}{48}
+\contentsline {subsection}{\numberline {5.4.6}Comparison with Markov Chain Monte Carlo}{48}
+\contentsline {section}{\numberline {5.5}Summary}{49}
+\contentsline {chapter}{\numberline {6}Convergence Schedule}{50}
+\contentsline {section}{\numberline {6.1}Introduction}{50}
+\contentsline {section}{\numberline {6.2}Entropy Reduction Schedule (ERS)}{50}
+\contentsline {subsection}{\numberline {6.2.1}Search Space Reduction}{50}
+\contentsline {subsection}{\numberline {6.2.2}Theoretical Justification}{51}
+\contentsline {subsection}{\numberline {6.2.3}Search Space Size and Entropy}{53}
+\contentsline {subsection}{\numberline {6.2.4}Implementation Issues}{54}
+\contentsline {subsubsection}{Partially Uniform Distribution}{54}
+\contentsline {subsubsection}{Boltzmann Distribution}{55}
+\contentsline {section}{\numberline {6.3}Experiments}{55}
+\contentsline {subsection}{\numberline {6.3.1}Basic Property}{55}
+\contentsline {subsubsection}{Result}{56}
+\contentsline {subsection}{\numberline {6.3.2}Comparison with Standard Deviation Schedule}{57}
+\contentsline {subsubsection}{Result}{59}
+\contentsline {section}{\numberline {6.4}Discussion}{59}
+\contentsline {subsection}{\numberline {6.4.1}Numerical Calculation Error}{59}
+\contentsline {subsection}{\numberline {6.4.2}Linear Time Convergence}{60}
+\contentsline {subsection}{\numberline {6.4.3}Application}{60}
+\contentsline {section}{\numberline {6.5}Summary}{60}
+\contentsline {chapter}{\numberline {7}Advanced Experimental Analysis}{62}
+\contentsline {section}{\numberline {7.1}Introduction}{62}
+\contentsline {section}{\numberline {7.2}Advanced Benchmark Problems}{63}
+\contentsline {subsection}{\numberline {7.2.1}Frustration}{63}
+\contentsline {subsubsection}{2D Ising model with Frustration}{63}
+\contentsline {subsection}{\numberline {7.2.2}Continuous Problems}{63}
+\contentsline {subsubsection}{Rosenbrock Function}{63}
+\contentsline {subsubsection}{Rastrigin Function}{64}
+\contentsline {section}{\numberline {7.3}Experiments on Frustration}{64}
+\contentsline {subsection}{\numberline {7.3.1}Experimental Setup}{64}
+\contentsline {subsection}{\numberline {7.3.2}Results}{66}
+\contentsline {section}{\numberline {7.4}Experiments on Continuous Problems}{66}
+\contentsline {subsection}{\numberline {7.4.1}Experimental Setup}{66}
+\contentsline {subsection}{\numberline {7.4.2}Results}{68}
+\contentsline {section}{\numberline {7.5}Discussion}{71}
+\contentsline {subsection}{\numberline {7.5.1}Robustness against Frustration}{71}
+\contentsline {subsection}{\numberline {7.5.2}Difficulty in 2D Ising Model}{71}
+\contentsline {subsection}{\numberline {7.5.3}RPM: Robustness against Model Error}{73}
+\contentsline {subsection}{\numberline {7.5.4}HIS: Robustness against Local Optima}{73}
+\contentsline {subsection}{\numberline {7.5.5}Estimation Bias in EDA}{73}
+\contentsline {section}{\numberline {7.6}Summary}{74}
+\contentsline {chapter}{\numberline {8}Conclusions and Future Directions}{75}
+\contentsline {section}{\numberline {8.1}Summary of This Thesis}{75}
+\contentsline {subsection}{\numberline {8.1.1}RPM for Model Error}{75}
+\contentsline {subsection}{\numberline {8.1.2}HIS for Local Optima}{76}
+\contentsline {subsection}{\numberline {8.1.3}ERS and Linear Time Convergence}{77}
+\contentsline {section}{\numberline {8.2}Future Directions}{77}
+\contentsline {subsection}{\numberline {8.2.1}HIS with RPM}{77}
+\contentsline {subsection}{\numberline {8.2.2}Constraints}{78}
+\contentsline {subsection}{\numberline {8.2.3}Statistical Estimation}{78}
+\contentsline {subsection}{\numberline {8.2.4}Evolution into Reinforcement Learning}{78}
+\contentsline {subsection}{\numberline {8.2.5}Killer Applications}{78}
+\contentsline {chapter}{Appendix}{78}
+\contentsline {chapter}{\numberline {A}Comparison between EDA and the EAPM (CE)}{79}
+\contentsline {section}{\numberline {A.1}Experimental Setup}{79}
+\contentsline {subsection}{\numberline {A.1.1}EDA Setting}{79}
+\contentsline {subsection}{\numberline {A.1.2}CE Setting}{80}
+\contentsline {section}{\numberline {A.2}Results}{80}
+\contentsline {chapter}{Bibliography}{84}
+\contentsline {subsubsection}{Journal Articles}{91}
+\contentsline {subsubsection}{Conference Proceedings}{91}
+\contentsline {subsubsection}{Technical Reports and Conference Papers in Japanese}{91}

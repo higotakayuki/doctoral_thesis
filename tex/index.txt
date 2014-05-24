@@ -1,0 +1,17 @@
+Title: Population Convergence of Evolutionary Optimization Methods based on Probability Models
+-Introduction
+-Evolutionary Optimization Methods based on Probability Models
+--EDA
+--CE
+-Maintaining Population as a part of Historical Samples
+--Resampling Population Model
+--Experiments
+--Results
+--Discussion
+-Maintaining Multiple Populations as Generalized Population Convergence Mechanism
+--Hierarchical Importance Sampling (HIS)
+--Determination of Target Distributions
+--Practical Procedure of HIS
+--Experiments
+--Results
+--Discussion
