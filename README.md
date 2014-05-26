@@ -13,7 +13,7 @@ Second one is hierarchical mechanism, which is also mathematically derived from 
  
 Third one is an optimal convergence speed, this is also mathematically derived from the basic model. Actually, a feature of search can be represented by entropy and linear reduction of the entropy gives the optimal convergence speed for the basic model of EAs. Surely, this convergence speed can be directly applied to reinforcement learning and also A/B test algorithms.
  
-All the details are described in my doctor thesis.
+All the details are described in my doctor thesis. The source code of the algorithms is available from [my github repository](https://github.com/higotakayuki/evolutionary_algorithm)
 
 ##Reference to the doctor thesis
 Takayuki Higo, "Research on the Importance Sampling Method for Evolutionary Algorithms Based on Probability Models", Doctor Thesis, Tokyo Institute of Technology, 2008.
